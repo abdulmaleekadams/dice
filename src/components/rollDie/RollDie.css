@@ -1,0 +1,45 @@
+.rollDie {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.rollDieContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roll i {
+  animation: roll 2s ease;
+}
+
+.rollDie button {
+  align-self: center;
+  width: 15em;
+  padding: 2rem 1.6em;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+  margin-top: 3em;
+  transition: all 0.5s ease-in-out;
+}
+
+.rollDie button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@keyframes roll {
+  from {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  to {
+    transform: rotate3d(2, 1, 1, -360deg);
+    transform: rotate3d();
+  }
+}
