@@ -1,0 +1,15 @@
+.ball{
+    background-color: #000;
+    color: #fff;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 0.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
