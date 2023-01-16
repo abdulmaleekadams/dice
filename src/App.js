@@ -1,5 +1,5 @@
 import "./App.css";
-import Die from "./components/Die/Die";
+import CoinFlipper from "./components/coin/CoinFlipper";
 import Lottery from "./components/lottery/Lottery";
 import RollDie from "./components/rollDie/RollDie";
 
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <RollDie />
       <Lottery />
+      <CoinFlipper />
     </div>
   );
 }
